@@ -1,0 +1,6 @@
+[submodule "products_api"]
+	path = products_api
+	url = https://github.com/mateusC2000/products_api
+[submodule "product-frontend"]
+	path = product-frontend
+	url = https://github.com/mateusC2000/product-frontend
