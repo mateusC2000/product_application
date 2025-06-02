@@ -14,7 +14,7 @@ services:
     build:
       context: ./products_api
     env_file:
-      - ./products_api/.env.exemple
+      - ./products_api/.env
     environment:
       RAILS_ENV: development
       DATABASE_URL: postgres://postgres:password@db:5432/products_api_development

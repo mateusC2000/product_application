@@ -7,6 +7,16 @@
 
 Ambos os serviços estão orquestrados via Docker Compose, permitindo um ambiente de desenvolvimento completo e facilmente reproduzível com apenas alguns comandos.
 
+## Clonando o Pepositório
+- git clone https://github.com/mateusC2000/product_application.git
+- cd product_application 
+
+## Atualizando os Submódulos:
+- git submodule update --init --recursive
+
+## Gerando o envfile:
+- cp .env.exemple ./products_api/.env
+
 
 ## 🐳 Rodando com Docker
 
